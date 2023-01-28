@@ -1,0 +1,2928 @@
+
+@media screen and (min-width: 100px) and (max-width: 299px) {
+
+/*-----REDES-----*/
+
+	
+.red{
+	display: none;
+	
+}
+/*----LOGO------*/	
+
+.container{
+  
+    max-width: 100%;
+	position: absolute;
+	float:left;
+	z-index: 1;
+  }
+.loh{
+	width: 80px;
+	
+}
+.logo{
+	text-align: center;
+	
+}
+	
+
+	
+.search-form {
+ display: none;
+	
+	}
+
+
+/*-------Navegador----*/
+
+ul,li{
+	
+	padding: 5px 10px;
+	
+}
+.site-nav li{
+    border-radius: 1px solid #575766;
+	font-size: 9.9px;
+	}
+.site-nav a{
+   
+    padding: 1.5em 5em;
+    
+	border-radius: 25px;
+    
+	
+}
+/*----------LETRAS---------*/
+.inter{
+		margin-left: 60px;
+		margin-bottom: -1px;
+		
+	}
+
+.cuerpo{
+box-shadow: 0px 0px 0px 0px white;
+	}
+.inter {
+font-size: 22px;	
+}
+	
+/*----Slider cabeza---*/
+	.bod{
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+	
+	}
+
+
+	
+	
+
+.imgs{
+    max-width: 100%;
+	height: 100%;
+	
+}
+	
+.container-all{
+    
+	top: 0px;
+    position: absolute;
+    max-width: 100% ;
+    width: 100%;
+	height: auto;
+    border-radius: 0px;
+    overflow: hidden;
+	box-shadow: 0px 0px 30px 0px black;
+}
+	.pagination{
+
+	height: 25px;
+		
+}
+	.pagination-item{
+	width: 25px;
+		height: 25px;
+	}
+.fondo{
+
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	z-index: -1;
+
+}
+.cont1{
+		width: 100%;
+	height: 180px;
+   margin-top: 10px;
+	
+}
+.cont2{
+	width: 100%;
+	height: 20px;
+	position: relative;
+	display: inline-block;
+}
+	
+	
+	/*--------escudos-----*/
+	
+
+.escudos{
+	
+	margin-top: 5px;
+	margin-bottom: 10px;
+	width:100%;
+	   
+}
+.escud1{
+	width:0%;
+	display: inline;
+	padding: 0px 0px;
+	box-sizing: border-box;
+   
+	
+}
+.esc-im{
+	top: 20px;
+	position: relative;
+	width: 150px;
+	display: inline-block;
+	
+}
+/*----- columnas-comunicados ------*/
+.contenedor-columnas{
+
+	width: 100%;
+	
+	justify-content: center;
+	
+	
+	
+	}
+.columnasx3{
+	
+	width: 100%;
+	float: right;
+	padding: 0px 0px;
+	height: auto;
+	box-sizing: border-box;
+    margin: auto;
+	border-bottom: 7px solid black;
+}
+
+
+.h4-colum{
+	margin-top: 1px;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.h5-colum{
+		
+	font-weight: normal;
+	padding: :10px 0;
+	font-size: 20px;
+	}
+.parra-com{
+display: none;
+	
+}
+.img-comun{
+	width: 100%;
+	cursor: pointer;
+}
+.titu-comunicados{
+	
+	font-size: 30px;
+	text-align: center;
+	margin-top: 50px;
+	
+
+}
+	/*-------videos--------*/
+
+	.video{
+		position: relative;
+		width: 100%;
+	}
+iframe{
+height: 200px;
+}
+	.vidioc{
+		height: 250px;
+	}	
+
+	/*-------Imagen_de arribaAbajo----*/
+.banner-2{
+	justify-content: center;
+	align-items: center;
+	background: url(img/animaImg/albert-einstein.jpg);
+	
+	width: 100%;
+	height: 0px;
+
+}
+/*-------proyectos colegio----------->*/
+
+.mensaComun{
+	width: 100%;
+}
+.propagan{
+	
+	
+}
+.prop1{
+	margin: 0;
+	padding: 0;
+	height: 0;
+}
+.prop-img{
+	position: relative;
+	float: left;
+    margin: 1em 0em 0em 0em;
+	width: 210px;
+	height: 200px;
+	
+
+}
+
+.prop-text{
+	
+display: none;
+
+	
+}
+.prop-text1{
+	display: none;
+	
+
+		  
+}
+	/*-------Sli-profe--------*/
+	
+.testimonios{
+	
+	padding: 10px 0;
+	}
+	.comunica{
+display: none;
+}
+.img-slid{
+	width:250px;
+;
+	
+}
+.h3-test{
+	font-size: 20px;
+	
+}
+	/*-----FLIP-TARGETA----*/
+.marg{
+	
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 40%;
+	margin: 30px auto;
+
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 700;
+	perspective: 700;
+}
+
+.tarjeta{
+	width: 200px;
+	height: 200px;
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	
+
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+padding: 0px;
+color: #fff;
+
+}
+.letr-flip{
+	margin:0px;
+	padding: 0px;
+	font-size: 20px;
+	text-align: center;
+	left: auto;
+
+}
+	/*---------raya------*/
+.hr{
+ position: relative;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	height: 10px;
+	width: 50%;
+	 
+	background-color: #efb810;
+	
+}
+	/*-----trofeos------*/
+
+.trofeo{
+	
+    display: flex;
+	text-align: center;	
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.img-trofeo{
+	
+	margin-top: 30px;
+	width:100%;
+	
+}
+.img-trofeo{
+	margin-top: 20px;
+	width:200px;cursor: pointer;
+	
+}
+	
+/*------PROFESORES-----*/
+.img-slid{
+	width:140px;
+		
+	
+}
+.h3-test{
+	
+	font-size: 15px;
+	padding: 10px
+}	
+/*-----ICONOS_PIE PAG--------*/
+
+
+.icons-AE{
+	width: -0px;
+	padding: 0px;
+	height: 10px;
+	position: absolute;
+	display: block;
+	top:0%;
+    left: 0%;           
+    margin-top:0px ;
+    margin-left: 0px;
+    left: 0%; 
+}
+.ic_uno img{
+width: 12px;
+margin-left: 50px;
+}
+.ic_uno{
+    margin-top: 5px;
+	margin:1px;
+}
+
+.parr-un{
+
+	color: white;
+float:left;
+	font-size: 5px;
+	text-align: center;
+	margin-left: 20px;;
+	margin-right: auto;
+	
+}
+.escudprin{
+	
+	position: absolute;
+      top:100%;
+        left:70%;          
+        margin-top:-40px;
+        margin-left: 40px;
+}
+.escud{
+	width: 30px;
+	border-radius: 100px;
+	opacity: 90%;
+}
+
+
+.piepag_derechos{
+	position: absolute;
+	background: #f6c700;
+	top:100%;
+	margin: 0;
+	width: 100%;
+	height: 15px;
+		
+}
+.text-derch{
+	padding: 0;
+	font-size: 10px;
+	text-align: center;
+	color: black;
+
+
+}
+	.frass{
+	position: absolute;
+	background:rgba(0,0,0,.5);
+	margin: 0;
+	
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 0%;
+	z-index: -1;
+}
+.piepag{
+	width: 100%;
+	max-height: 100%; 
+
+	float:right;
+	
+		
+}
+#particles-js{
+	
+	position: absolute;
+	width: 100%;
+	height: 
+
+
+	opacity: 90%;
+
+ 
+	
+}
+.face-pie{
+	display: none;
+	
+}
+.datos{
+	font-size: 11px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	
+	color: white;
+	border-bottom: 4px solid #f6c700;
+}
+}
+@media screen and (min-width: 300px) and (max-width: 490px) {
+
+/*-----REDES-----*/
+
+.red{
+	display: none;
+	
+}
+/*----LOGO------*/	
+	header{
+		 padding-left: 7%;
+	}
+	
+.container{
+  	margin-top:1px; 
+    max-width: 100%;
+	position: absolute;
+	float:left;
+	z-index: 1;
+   	
+}
+.loh{
+	width: 85px;
+	
+}
+.logo{
+	text-align: center;
+}
+
+.search-form {
+ display: none;
+	
+}
+.cuerpo{
+		
+  width: 100%;
+  height: 3%;
+  bottom: 0px;
+		
+ }
+.inter{
+	margin-left: 35px;
+	margin-bottom: 1px;
+}
+
+/*-------Sli-profe--------*/
+	
+.testimonios{
+	
+	padding: 10px 0;
+	}
+	
+.comunica{
+display: none;
+}
+.img-slid{
+	width:250px;
+;
+	
+}
+.h3-test{
+	font-size: 20px;
+	
+}
+
+
+/*-------Navegador----*/
+
+	
+
+ul,li{
+	
+	padding: 5px 10px;
+	
+}
+.site-nav li{
+    border-radius: 1px solid #575766;
+	font-size: 13px;
+	}
+.site-nav a{
+   
+    padding: 2em 4em;
+    
+	border-radius: 25px;
+    
+	
+}
+
+/*----------LETRAS---------*/
+
+
+.cuerpo{
+
+	}
+.inter {
+
+font-size: 22px;	
+}
+	
+/*----Slider cabeza---*/
+	.bod{
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+	
+	}
+
+
+	
+	
+
+.imgs{
+    max-width: 100%;
+	height: 100%;
+	
+}
+	
+.container-all{
+    
+	top: 0px;
+    position: absolute;
+    max-width: 100% ;
+    width: 100%;
+	height: auto;
+    border-radius: 0px;
+    overflow: hidden;
+	box-shadow: 0px 0px 30px 0px black;
+}
+	.pagination{
+
+	height: 25px;
+		
+}
+	.pagination-item{
+	width: 25px;
+		height: 25px;
+	}
+.fondo{
+
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	z-index: -1;
+
+}
+.cont1{
+		width: 100%;
+	height: 250px;
+   margin-top: 10px;
+	
+}
+.cont2{
+	width: 100%;
+	height: 20px;
+	position: relative;
+	display: inline-block;
+}
+	
+	
+	/*--------escudos-----*/
+	
+
+.escudos{
+	
+	margin-top: 5px;
+	margin-bottom: 10px;
+	width:100%;
+	   
+}
+.escud1{
+	width:0%;
+	display: inline;
+	padding: 0px 0px;
+	box-sizing: border-box;
+   
+	
+}
+.esc-im{
+	top: 20px;
+	position: relative;
+	width: 150px;
+	display: inline-block;
+	
+}
+/*----- columnas-comunicados ------*/
+
+	/*----*/
+	.contenedor-columnas{
+	width: 100%;
+	justify-content: center;
+	
+	
+	
+	}
+.columnasx3{
+	
+	width: 100%;
+	float: right;
+	padding: 0px 0px;
+	height: auto;
+	box-sizing: border-box;
+    margin: 0;
+	border-bottom: 7px solid #EEB108;
+}
+
+
+.h4-colum{
+	margin-top: 1px;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.h5-colum{
+		
+	font-weight: normal;
+	padding: :10px 0;
+	font-size: 20px;
+	}
+.parra-com{
+display: none;
+	
+}
+.img-comun{
+	width: 100%;
+	cursor: pointer;
+}
+.titu-comunicados{
+	
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	
+
+}
+	/*-------videos--------*/
+
+	.video{
+		position: relative;
+		width: 100%;
+	}
+iframe{
+height: 200px;
+}
+	.vidioc{
+		height: 250px;
+	}	
+
+	/*-------Imagen_de arribaAbajo----*/
+.banner-2{
+	justify-content: center;
+	align-items: center;
+	background: url(../img/animaImg/albert-einstein.jpg);
+	
+	width: 100%;
+	height: 0px;
+
+}
+/*-------proyectos colegio----------->*/
+
+.mensaComun{
+	width: 100%;
+	
+}
+.propagan{
+	
+}
+
+	.caja-text{
+	display: none;
+	}
+
+.prop-text{
+	
+display: none;
+
+	
+}
+.prop-text1{
+	display: none;
+		
+}
+
+.prop1{
+	
+	margin-top: 10px;
+	padding: 0px;
+	box-sizing: border-box;
+	height: 0px;
+	text-align: center;
+}
+.prop-img{
+	position: relative;
+	float: none;
+    margin: 1em 0em 0em 0em;
+	max-width:100%;
+	height: auto;
+}
+	
+	/*-----FLIP-TARGETA----*/
+.marg{
+	
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 40%;
+	margin: 30px auto;
+
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 700;
+	perspective: 700;
+}
+
+.tarjeta{
+	width: 200px;
+	height: 200px;
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+padding: 0px;
+color: #fff;
+
+}
+.letr-flip{
+	margin:0px;
+	padding: 0px;
+	font-size: 20px;
+	text-align: center;
+	left: auto;
+
+}
+	/*---------raya------*/
+.hr{
+ position: relative;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	height: 10px;
+	width: 50%;
+	background-color: #efb810;
+	
+}
+	/*-----trofeos------*/
+
+	.section1{
+		margin: 0;
+		padding: 0;
+		
+		
+	}
+
+	.trofeo{
+	
+    display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	
+	
+	
+}
+.img-trofeo{
+	margin-top: 40px;
+	width:100%;
+	cursor: pointer;
+	
+}
+	
+/*------PROFESORES-----*/
+.img-slid{
+	width:140px;
+		
+	
+}
+.h3-test{
+	
+	font-size: 15px;
+	padding: 10px
+}	
+/*-----ICONOS_PIE PAG--------*/
+
+
+.icons-AE{
+	width: -0px;
+	padding: 0px;
+	height: 10px;
+	position: absolute;
+	display: block;
+	top:10%;
+    left: 20%;
+ 
+
+    margin-top:30px ;
+    margin-left: 0px;
+     
+}
+.ic_uno img{
+padding: 10x;
+	margin: 10px; 
+	border: 2px solid black;
+	float: right; 
+	width: 20px;
+	 vertical-align: middle; 
+}
+.ic_uno{
+    margin:0;
+	
+}
+
+.parr-un{
+
+	color: white;
+	width: 170px;
+	
+	float: left;
+	font-size: 12px;
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 0px;;
+	
+	
+}
+.escudprin{
+	
+	position: absolute;
+      top:100%;
+        left:70%;          
+        margin-top:-40px;
+        margin-left: 40px;
+}
+.escud{
+	width: 30px;
+	border-radius: 100px;
+	opacity: 90%;
+}
+
+
+.piepag_derechos{
+	position: absolute;
+	background: #f6c700;
+	top:100%;
+	margin: 0;
+	width: 100%;
+	height: 15px;
+		
+}
+.text-derch{
+	padding: 0;
+	font-size: 10px;
+	text-align: center;
+	color: black;
+
+
+}
+.frass{
+	position: absolute;
+	background:rgba(0,0,0,.5);
+	margin: 0;
+	
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 0%;
+	z-index: -1;
+}
+.piepag{
+	width: 100%;
+	max-height: 100%; 
+
+	float:left;
+	
+		
+}
+#particles-js{
+	
+	position: absolute;
+	width: 100%;
+ 
+
+
+	opacity: 90%;
+
+ 
+	
+}
+.face-pie{
+	display: none;
+	
+}
+.datos{
+	font-size: 11px;
+	position: absolute;
+
+	color: white;
+	border-bottom: 4px solid #f6c700;
+}
+}
+@media screen and (min-width: 385px) and (max-width: 490px){
+	.cont1{
+		width: 100%;
+	height: 350px ;
+   margin-top: 5px;
+	
+}
+}
+@media screen and (min-width: 491px) and (max-width: 800px) {
+
+	
+/*-----REDES-----*/
+.red{
+	display: none;
+	
+}
+/*----LOGO------*/	
+
+
+.container{
+  
+    max-width: 100%;
+	position: absolute;
+	float:left;
+   	z-index: 1;
+}
+.loh{
+	width: 100px;
+}
+.logo{
+	text-align: center;
+	
+}
+
+	
+	
+.search-form {
+ display: none;
+	
+	}
+
+	/*---------direccion telefono direccion-------------*/
+.comunica{
+display: none;
+}
+
+/*-------Navegador----*/
+
+	
+
+ul,li{
+	
+	padding: 5px 10px;
+	
+}
+.site-nav li{
+    border-radius: 1px solid #575766;
+	font-size: 14px;
+	}
+.site-nav a{
+   
+    padding: 2em 5em;
+    
+	border-radius: 26px;
+    
+	
+}
+
+/*----------LETRAS---------*/
+
+.cuerpo{
+		
+  width: 100%;
+  height: 3%;
+  bottom: 0px;
+  
+ 
+	}
+.inter{
+		margin-left: 35px;			
+}
+
+.inter {
+font-size: 36px;	
+}
+	
+/*----Slider cabeza---*/
+	.bod{
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+	
+	}
+
+
+	
+	
+
+.imgs{
+    max-width: 100%;
+	height: 450px;
+	
+}
+.container-all{
+	top: 0px;
+    position: absolute;
+    max-width: 100% ;
+    width: 100%;
+	height: auto;
+    border-radius: 0px;
+    overflow: hidden;
+	box-shadow: 0px 0px 30px 0px black;
+}
+
+.fondo{
+
+	width: 100%;
+	height: 140px;
+	position: absolute;
+	z-index: -1;
+
+}
+.cont1{
+		width: 100%;
+	height: 450px;
+   margin-top: 10px;
+	
+}
+.cont2{
+	width: 100%;
+	height: 20px;
+	position: relative;
+	display: inline-block;
+}
+	
+	
+	/*--------escudos-----*/
+	
+
+.escudos{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	width:100%;
+	   
+}
+.escud1{
+	width:0%;
+	display: inline;
+	padding: 30px 30px;
+	box-sizing: border-box;
+    margin: 40px 40px;
+	
+}
+.esc-im{
+	top: 20px;
+	position: relative;
+	width: 150px;
+	display: inline-block;
+	
+}
+/*----- columnas-comunicados ------*/
+.contenedor-columnas{
+	
+	
+	justify-content: center;
+	
+	
+	}
+.columnasx3{
+	
+	width: 100%;
+	float: right;
+	padding: 1px 6px;
+	height: auto;
+	box-sizing: border-box;
+    margin: auto;
+	border-bottom: 7px solid #efb810;
+
+}
+
+
+.h4-colum{
+	margin-top: 1px;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.h5-colum{
+		
+	font-weight: normal;
+	padding: :10px 0;
+	font-size: 20px;
+	}
+.parra-com{
+display: none;
+	
+}
+.img-comun{
+	width: 100%;
+	cursor: pointer;
+}
+.titu-comunicados{
+	
+	font-size: 50px;
+	text-align: center;
+	margin-top: px;
+	
+
+}	
+/*-------proyectos colegio----------->*/
+
+.mensaComun{
+	width: 100%;
+	
+}
+.propagan{
+	
+	
+	
+}
+.prop1{
+	
+	
+	
+
+}
+.prop-img{
+	   
+
+	 
+
+	}
+.prop-text{
+	
+display: none;
+
+	
+}
+.prop-text1{
+	display: none;
+	  
+}
+.prop1{
+	
+	
+	margin-top: 10px;
+	padding: 0px;
+	box-sizing: border-box;
+	height: 0px;
+	text-align: center;
+	
+}
+.prop-img{
+	position: relative;
+	float: none;
+    margin: 1em 0em 0em 0em;
+	width:100%;
+	height: auto;
+	
+
+}
+
+	/*---------raya------*/
+.hr{
+ position: relative;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	height: 10px;
+	width: 50%;
+	 
+	background-color: #efb810;
+	
+}
+	/*-----trofeos------*/
+
+.trofeo{
+	
+    display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	
+	
+	
+}
+.img-trofeo{
+	margin-top: 20px;
+	width:100%;
+	cursor: pointer;
+}
+	
+/*------PROFESORES-----*/
+.img-slid{
+	width:200px;
+		
+	
+}
+.h3-test{
+	font-size: 18px;
+	
+}	
+/*-----ICONOS_PIE PAG--------*/
+
+
+.icons-AE{
+	width: -0px;
+	padding: 0px;
+	height: 10px;
+	position: absolute;
+	display: block;
+	top:10%;
+    left: 20%;
+ 
+
+    margin-top:40px ;
+    margin-left: 0px;
+     
+}
+.ic_uno img{
+padding: 0;
+	margin: 20px; 
+	border-bottom: 2px solid black;
+	float: right; 
+	width: 30px;
+	 vertical-align: middle; 
+	
+}
+.ic_uno{
+    margin:0;
+	
+}
+
+.parr-un{
+
+	color: white;
+	width: 390px;
+	
+	float: left;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 0px;;
+	
+	
+}
+.escudprin{
+	
+	position: absolute;
+      top:85%;
+        left:80%;          
+        margin-top:-40px;
+        margin-left: 40px;
+}
+.escud{
+	width: 50px;
+	border-radius: 100px;
+	opacity: 90%;
+}
+
+.text-derch{
+	padding: 0;
+	font-size: 13px;
+	text-align: center;
+	color: black;
+
+
+}
+	.frass{
+	position: absolute;
+	background:rgba(0,0,0,.5);
+	margin: 0;
+	
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 0%;
+	z-index: -1;
+}
+.piepag{
+	width: 100%;
+	max-height: 100%; 
+
+	float:right;
+	
+	
+	
+	
+}
+.face-pie{
+	display: none;
+	
+}
+.datos{
+	font-size: 20px;
+	position: absolute;
+	margin-left: 25%;
+	color: white;
+	border-bottom: 5px solid #f6c700;
+}
+.piepag_derechos{
+	position: absolute;
+	background: #f6c700;
+	top:95%;
+	margin: 0;
+	width: 100%;
+	height: 18px;
+	box-sizing: border-box;
+	padding-top: 0%;
+	
+}
+}
+	
+@media screen and (min-width: 801px) and (max-width: 950px){
+	
+	
+.container{
+  
+    max-width: 100%;
+	position: absolute;
+	float:left;
+  }
+.loh{
+	max-width: 100%;
+	width: 150px;
+}
+.logo{
+	text-align: center;
+	
+}
+	
+/*------NAV---------*/
+  .menu-toggle{
+      display: none;
+  } 
+  .site-nav{
+      height: auto;
+      position: relative;
+      background: transparent;
+      float: right;
+      margin-right: 0px;
+      clip-path: initial;
+  } 
+	.site-nav li{
+ 
+	font-size: 13px;
+	
+}
+  .site-nav li{
+      display: inline-block;
+      border: none;
+  }
+
+  .site-nav a{
+      padding: 0;
+ 
+  }
+  .site-nav--icon{
+      display: none;
+  }
+  .site-nav a:hover,
+  .site-nav a:focus{
+      background: transparent;
+  }
+.site-nav a{
+ 
+    padding: 5px 5px;
+    
+	border-radius: 30px;
+    
+	
+}
+	ul,li{
+	
+	padding: 10px 5px;
+	
+}
+
+	
+/*--------buscardor----------*/
+.search-form {
+  display: none;
+	}	/*---------direccion telefono direccion-------------*/
+.comunica{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #00163E;
+}
+
+.A1{
+ 
+	width: 30px;
+	height: 30px;
+	
+	}
+
+.B2{
+	color: white;
+	font-size: 0.6em;
+	margin-bottom: 0;
+	margin-left:0px;
+	margin-right: 15px
+}
+/*----------LETRAS---------*/
+
+
+.cuerpo{
+    width: 100%;
+	height: 100px;
+	background-size: 100% 100%;
+	animation: cambaner 20s infinite;
+}
+	
+/*----Slider cabeza---*/
+	.bod{
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+	
+	
+}
+.imgs{
+    max-width: 100%;
+	width: 100%;
+	height: 700px;
+	
+}
+.container-all{
+	top: 0px;
+    position: absolute;
+    max-width: 100% ;
+    width: 1000px;
+	height: auto;
+    border-radius: 0px;
+    overflow: hidden;
+	box-shadow: 0px 0px 30px 0px black;
+}
+.cont1{
+		width: 100%;
+	height: 700px;
+   margin-top: 10px;
+	
+}	
+.pagination-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+   
+    transition: all 300ms;
+}
+	/*--------escudos-----*/
+
+.escudos{
+	
+	width:100%;
+	   
+}
+.escud1{
+	width:50%;
+	display: inline;
+	padding: 30px 30px;
+	box-sizing: border-box;
+    margin: 40px 40px;
+	
+}
+.esc-im{
+	top: 20px;
+	position: relative;
+	width: 400px;
+	display: inline-block;
+	
+}
+/*----- columnas-comunicados ------*/
+	
+	.contenedor-columnas{
+	
+	width:95%;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.columnasx3{
+	width: 50%;
+	float: left;
+	padding: 20px 8px;
+	box-sizing: border-box;
+    margin: auto;
+	
+}
+
+
+.h4-colum{
+	margin-bottom: 15px;
+	font-size: 25px;
+	margin-top: 0;
+}
+.h5-colum{
+		line-height: 1;
+	font-weight: normal;
+	padding: :10px 0;
+	font-size: 22px;
+	}
+
+	span{
+		display: none;
+	}
+	
+.img-comun{
+	width: 100%;
+	cursor: pointer;
+}
+.titu-comunicados{
+	
+	font-size: 60px;
+	text-align: center;
+	margin-top: 50px;
+	
+
+}	
+/*-------proyectos colegio----------->*/
+
+.mensaComun{
+	width: 100%;
+}
+.propagan{
+	
+}
+.prop1{
+	
+	
+	
+
+}
+.prop1{
+	
+	
+	margin-top: 10px;
+	padding: 0px;
+	box-sizing: border-box;
+	height: 0px;
+	text-align: center;
+	
+}
+.prop-img{
+	position: relative;
+	float: none;
+    margin: 1em 0em 0em 0em;
+	width:680px;
+	height: auto;
+	
+
+}
+.prop-text{
+	
+	display: none;
+}
+.prop-text1{
+	 display: none;
+	
+	  
+}
+
+	/*-----trofeos------*/
+
+.trofeo{
+	
+    display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	
+	
+	
+}
+.img-trofeo{
+	margin-top: 20px;
+	width:100%;
+	cursor: pointer;
+}
+	
+/*-----ICONOS_PIE PAG--------*/
+
+.icons-AE{
+	width: 98%;
+	padding: 5px;
+	height: 50px;
+	position: absolute;
+	display: block;
+	 top:25%;
+       left: 0%;           
+        margin-top:0px ;
+        margin-left: 0px;
+
+}
+.ic_uno img{
+width: 60px;
+
+}
+
+
+.parr-un{
+	color: white;
+float:left;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 50px;
+	
+}
+.escudprin{
+	
+	position: absolute;
+      top:50%;
+        left:60%;          
+        margin-top:-150px;
+        margin-left: -150px;
+}
+.escud{
+	width: 100px;
+	 border-radius: 100px;
+	opacity: 80%;
+}
+
+
+.piepag_derechos{
+	position: absolute;
+	background: #f6c700;
+	top:95%;
+	margin: 0;
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	padding-top: 0%;
+	
+}
+.text-derch{
+	padding: 0;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+
+
+}
+	.frass{
+	position: absolute;
+	background:rgba(0,0,0,.5);
+	margin: 0;
+	
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 0%;
+	z-index: -1;
+}
+.piepag{
+	width: 100%;
+	max-height: 100%; 
+
+	float:right;
+	
+	
+	
+	
+}
+.face-pie{
+	display: none;
+	
+}
+.datos{
+	font-size: 40px;
+	position: absolute;
+	margin-left: 25%;
+	color: white;
+	border-bottom: 5px solid #f6c700;
+}
+}
+@media screen and (min-width: 840px) and (max-width: 900px){
+	section{
+	   width: 	95%;
+	}
+	.banner-2{
+		width: 100%;
+	}
+	iframe{
+		width: 700px;
+	}
+	.vidioc{
+	
+	background: url(/NEW_PAG_A.E/img/animaImg/albert-einstein.jpg);
+	float: left;
+	width: 105%;
+	height: 520px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+}
+@media screen and (min-width: 951px) and (max-width: 1319px){
+	
+	
+.container{
+  
+    max-width: 100%;
+	position: absolute;
+	float:left;
+   z-index: 1;
+	
+
+}
+.loh{
+	max-width: 100%;
+	width: 270px;
+}
+.logo{
+	text-align: center;
+	
+}
+	
+/*------NAV---------*/
+  .menu-toggle{
+      display: none;
+  } 
+  .site-nav{
+      height: auto;
+      position: relative;
+      background: transparent;
+      float: right;
+      margin-right: 0px;
+      clip-path: initial;
+  } 
+	.site-nav li{
+ 
+	font-size: 15px;
+	
+}
+  .site-nav li{
+      display: inline-block;
+      border: none;
+  }
+
+  .site-nav a{
+      padding: 0;
+ 
+  }
+  .site-nav--icon{
+      display: none;
+  }
+  .site-nav a:hover,
+  .site-nav a:focus{
+      background: transparent;
+  }
+.site-nav a{
+ 
+    padding: 3px 3px;
+    
+	border-radius: 30px;
+    
+	
+}
+	ul,li{
+	
+	padding: 10px 5px;
+	
+}
+
+	
+/*--------buscardor----------*/
+.search-form {
+  display: none;
+	}	
+
+/*---------direccion telefono direccion-------------*/
+.comunica{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.A1{
+ 	width: 30px;
+	height: 30px;
+}
+
+.B2{
+	color: white;
+	font-size: 0.7em;
+	margin-bottom: 0;
+	margin-left:0px;
+}
+
+/*----------LETRAS---------*/
+
+
+.cuerpo{
+    width: 100%;
+	height: 90px;
+	background-size: 100% 100%;
+	animation: cambaner 20s infinite;
+	
+}
+
+.inter{
+		margin-left: 200px;			
+}	
+/*----Slider cabeza---*/
+.bod{
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+.imgs{
+    max-width: 100%;
+	width: 100%;
+	height: 700px;
+	
+}
+.container-all{
+	top: 0px;
+    position: absolute;
+    max-width: 100% ;
+    width: 1000px;
+	height: auto;
+    border-radius: 0px;
+    overflow: hidden;
+	box-shadow: 0px 0px 30px 0px black;
+}
+.cont1{
+		width: 100%;
+	height: 700px;
+   margin-top: 10px;
+	
+}	
+.pagination-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+   
+    transition: all 300ms;
+}
+	
+/*-----FLIP-TARGETA----*/
+.marg{
+	margin: 0;
+	padding: 0;
+	
+
+}
+
+.wrap{
+	width: 80%;
+	margin: 50px auto;
+
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+}
+
+.tarjeta{
+	width: 450px;
+	height: 450px;
+	background: #123455;
+
+
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+
+}
+
+.adelante{
+	width: 100%;
+}
+
+
+
+	/*--------escudos-----*/
+
+.escudos{
+	
+	width:100%;
+	   
+}
+.escud1{
+	width:50%;
+	display: inline;
+	padding: 30px 30px;
+	box-sizing: border-box;
+    margin: 40px 40px;
+	
+}
+.esc-im{
+	top: 20px;
+	position: relative;
+	width: 400px;
+	display: inline-block;
+	
+}
+/*----- columnas-comunicados ------*/
+
+.contenedor-columnas{
+	width:90%;
+	margin-bottom: 50px;
+	
+}
+.columnasx3{
+	width: 50%;
+	float: left;
+	padding: 20px 8px;
+	   	
+	
+}
+.dentro-conten{
+	
+position: relative;
+	margin: 50px;
+}
+
+
+.h4-colum{
+	margin-bottom: 15px;
+	font-size: 25px;
+	margin-top: 0;
+}
+.h5-colum{
+		line-height: 1;
+	font-weight: normal;
+	padding: :10px 0;
+	font-size: 22px;
+	}
+
+	span{
+		display: none;
+	}
+	
+.img-comun{
+	width: 100%;
+	cursor: pointer;
+}
+.titu-comunicados{
+	
+	font-size: 60px;
+	text-align: center;
+	margin-top: 50px;
+	
+
+}	
+/*-------proyectos colegio----------->*/
+
+.mensaComun{
+	width: 100%;
+}
+.propagan{
+	
+}
+
+.caja-text{
+	text-align:left;
+	position: relative;
+	
+	padding:0px;
+	
+	
+}
+.prop-text1{
+	font-size: 2.1vw;
+	margin: 0;
+	padding: 0;
+	
+	
+}
+.prop-text{
+	font-size: 2.2vw;
+}
+	/*-----trofeos------*/
+
+.trofeo{
+	
+    display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	
+	
+	
+}
+.img-trofeo{
+	margin-top: 20px;
+	width:700PX;
+	cursor: pointer;
+}
+	
+/*-----ICONOS_PIE PAG--------*/
+
+
+.icons-AE{
+	width: 98%;
+	padding: 5px;
+	height: 50px;
+	position: absolute;
+	display: block;
+	 top:25%;
+       left: 0%;           
+        margin-top:0px ;
+        margin-left: 0px;
+
+}
+.ic_uno img{
+width: 70px;
+
+}
+
+
+.parr-un{
+	color: white;
+float:left;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 50px;
+	
+}
+.escudprin{
+	
+	position: absolute;
+      top:50%;
+        left:60%;          
+        margin-top:-150px;
+        margin-left: -150px;
+}
+.escud{
+	width: 100px;
+	 border-radius: 100px;
+	opacity: 80%;
+}
+
+
+.piepag_derechos{
+	position: absolute;
+	background: #f6c700;
+	top:95%;
+	margin: 0;
+	width: 100%;
+	height: 35px;
+	box-sizing: border-box;
+	padding-top: 0%;
+	
+}
+.text-derch{
+	padding: 0;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+
+
+}
+	.frass{
+	position: absolute;
+	background:rgba(0,0,0,.5);
+	margin: 0;
+	
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 0%;
+	z-index: -1;
+}
+.piepag{
+	width: 100%;
+	max-height: 100%; 
+
+	float:right;
+	
+	
+	
+	
+}
+.face-pie{
+	display: none;
+	
+}
+.datos{
+	font-size: 40px;
+	position: absolute;
+	margin-left: 25%;
+	color: white;
+	border-bottom: 5px solid #f6c700;
+}
+}
+
+@media screen and (min-width: 1320px) and (max-width: 1901px){
+	
+	header{
+		padding-left: 75px;
+	}
+.container{
+  
+    max-width: 100%;
+	position: absolute;
+	float:left;
+   	z-index: 1;
+	
+
+}
+.loh{
+	max-width: 100%;
+	width: 150px;
+	
+}
+
+.logo{
+	text-align: center;
+	
+}
+	
+/*------NAV---------*/
+  .menu-toggle{
+      display: none;
+  } 
+  .site-nav{
+      height: auto;
+      position: relative;
+      background: transparent;
+      float: right;
+      margin-right: 0px;
+      clip-path: initial;
+  } 
+	.site-nav li{
+ 
+	font-size: 25.5px;
+	
+}
+  .site-nav li{
+      display: inline-block;
+      border: none;
+  }
+
+  .site-nav a{
+      padding: 0;
+ 
+  }
+  .site-nav--icon{
+      display: none;
+  }
+  .site-nav a:hover,
+  .site-nav a:focus{
+  background: transparent;
+  }
+.site-nav a{
+ 
+    padding: 1px 10px;
+    border-radius: 30px;
+
+}
+	ul,li{
+	
+	padding: 1px 3px;
+	
+}
+
+	
+/*--------buscardor----------*/
+.search-form {
+	margin-right: 0;
+	margin-bottom:10px;
+	}	
+/*---------direccion telefono direccion-------------*/
+.comunica{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.A1{
+ 	width: 30px;
+	height: 30px;
+}
+.B2{
+	color: white;
+	font-size: 0.7em;
+	margin-bottom: 0;
+	margin-left:0px;
+}
+/*----------LETRAS---------*/
+.cuerpo{
+	
+    width: 100%;
+	height: 0px;
+	background-size: 100% 100%;
+	animation: cambaner 20s infinite;
+		
+}
+.loh{
+	max-width: 100%;
+	width: 225px;
+}
+.logo{
+	text-align: center;
+	
+}
+	
+/*----Slider cabeza---*/
+	.bod{
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+	
+	
+}
+.imgs{
+    max-width: 100%;
+	
+	height: 700px;
+	
+}
+.container-all{
+	top: 0px;
+    position: absolute;
+    max-width: 100% ;
+    width: 1000px;
+	height: auto;
+    border-radius: 0px;
+    overflow: hidden;
+	box-shadow: 0px 0px 30px 0px black;
+}
+.cont1{
+		width: 100%;
+	height: 700px;
+   margin-top: 10px;
+	
+}	
+.pagination-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+   
+    transition: all 300ms;
+}
+	/*--------escudos-----*/
+
+.escudos{
+	
+	width:100%;
+	   
+}
+.escud1{
+	width:50%;
+	display: inline;
+	padding: 30px 30px;
+	box-sizing: border-box;
+    margin: 40px 40px;
+	
+}
+.esc-im{
+	top: 20px;
+	position: relative;
+	width: 400px;
+	display: inline-block;
+	
+}
+/*----- columnas-comunicados ------*/
+.contenedor-columnas{
+	width:90%;
+	
+	margin-bottom: 50px;
+	justify-content: center;
+	
+	
+	
+	}
+.columnasx3{
+	width: 50%;
+	float: right;
+	padding: 20px 8px;
+
+	box-sizing: border-box;
+    margin: auto;
+	
+}
+
+
+.h4-colum{
+	margin-bottom: 15px;
+	font-size: 25px;
+	margin-top: 0;
+}
+.h5-colum{
+		line-height: 1;
+	font-weight: normal;
+	padding: :10px 0;
+	font-size: 22px;
+	}
+
+	span{
+		display: none;
+	}
+	
+.img-comun{
+	width: 100%;
+	cursor: pointer;
+}
+.titu-comunicados{
+	
+	font-size: 60px;
+	text-align: center;
+	margin-top: 50px;
+	
+
+}
+	
+/*-------proyectos colegio----------->*/
+
+.mensaComun{
+	width: 100%;
+}
+.propagan{
+	
+}
+.prop1{
+
+	
+	
+
+}
+.prop-img{
+
+	 
+
+	}
+.prop-text1{
+
+	  
+}
+
+.prop-text{
+	
+	
+
+	
+}
+
+	/*-----trofeos------*/
+
+.trofeo{
+	
+    display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	
+	
+	
+}
+.img-trofeo{
+	margin-top: 20px;
+	width:750px;;
+	cursor: pointer;
+}
+	
+/*-----ICONOS_PIE PAG--------*/
+
+
+.icons-AE{
+	width: 98%;
+	padding: 5px;
+	height: 50px;
+	position: absolute;
+	display: block;
+	 top:25%;
+       left: 0%;           
+        margin-top:0px ;
+        margin-left: 0px;
+
+}
+.ic_uno img{
+width: 70px;
+
+}
+
+
+.parr-un{
+	color: white;
+float:left;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 50px;
+	
+}
+.escudprin{
+	
+	position: absolute;
+      top:50%;
+        left:60%;          
+        margin-top:-200px;
+        margin-left: 300px;
+}
+.escud{
+	width: 100px;
+	 border-radius: 100px;
+	opacity: 80%;
+}
+
+
+.piepag_derechos{
+	position: absolute;
+	background: #f6c700;
+	top:95%;
+	margin: 0;
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	padding-top: 0%;
+	
+}
+.text-derch{
+	padding: 0;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+
+
+}
+	.frass{
+	position: absolute;
+	background:rgba(0,0,0,.5);
+	margin: 0;
+	
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 0%;
+	z-index: -1;
+}
+.piepag{
+	width: 100%;
+	max-height: 100%; 
+
+	float:right;
+	
+	
+	
+	
+}
+.face-pie{
+	
+	width: 400px;
+    height: 370px;
+	position: absolute;
+	margin-left: 0;
+	margin-top: 0;
+	margin-top: 0;
+	top:42%;
+	left: 70%;
+	align-content: flex-end;
+	z-index: 1;
+}
+.datos{
+	font-size: 40px;
+	position: absolute;
+	margin-left: 25%;
+	color: white;
+	border-bottom: 5px solid #f6c700;
+}
+}
+
+
+@media screen and (min-width: 1902px){
+		
+	header{
+		padding-left: 250px;
+	}
+.container{
+  
+    max-width: 100%;
+	position: absolute;
+	float:left;
+   	z-index: 1;
+}
+.loh{
+	max-width: 100%;
+	width: 340px;
+}
+	/*-------Navegador----*/
+
+  .menu-toggle{
+      display: none;
+  } 
+	
+  .site-nav{
+      height: auto;
+      position: relative;
+      background: transparent;
+      float: right;
+      margin-right: 10px;
+      clip-path: initial;
+  } 
+  .site-nav li{
+      display: inline-block;
+      border: none;
+}
+
+  .site-nav a{
+      padding: 0;
+     
+	  
+  }
+  .site-nav--icon{
+      display: none;
+  }
+  .site-nav a:hover,
+  .site-nav a:focus{
+      background: transparent;
+  }
+	
+
+.site-nav li{
+    border-radius: 1px solid #575766;
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+ul,li{
+
+	padding: 15px 20px;
+	
+}
+/*--------buscardor----------*/
+.search-form {
+  margin-top: 4px;
+  float: right;
+  margin-right: 0px;
+	
+}
+.search-form input[type=text] {
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+  
+  border-radius: 5px 0 0px 5px;
+
+}
+
+	/*---------direccion telefono direccion-------------*/
+.comunica{
+	width: 100%;
+	padding: 0;
+	margin: 0;	
+}
+
+.A1{
+ 
+	width: 40px;
+	height: 40px;
+	
+	}
+
+.B2{
+	color: white;
+	font-size: 13px;
+	margin-bottom: 0;
+	margin-top: 6px;
+	margin-left:0px;
+}
+
+/*----Slider cabeza---*/
+
+.imgs{
+    max-width: 100%;
+	width: 2000px;
+	height: 1000px;
+	
+}
+.container-all{
+	top: 0px;
+    position: absolute;
+    max-width: 100% ;
+    width: 2000px;
+	height: auto;
+    border-radius: 0px;
+    overflow: hidden;
+	box-shadow: 0px 0px 30px 0px black;
+}
+.fondo{
+
+	width: 100%;
+	height: 900px;
+	position: absolute;
+	z-index: -1;
+
+}
+.cont1{
+	width: 100%;
+	height: 1000px;
+	margin-top: 20px;
+	padding: 0px;
+}
+.cont2{
+
+	height: 10px;
+	
+}
+	/*--------escudos-----*/
+
+
+.escud1{
+	width:50%;
+	display: inline;
+	padding: 30px 30px;
+	box-sizing: border-box;
+    margin: 40px 40px;
+	
+}
+.esc-im{
+	top: 20px;
+	position: relative;
+	
+	display: inline-block;
+	
+}
+	.esc-im{
+	top: 30px;
+	position: relative;
+	width: 600px;
+	display: inline-block;
+      	
+}
+/*----- columnas-comunicados ------*/
+.contenedor-columnas{
+	width:80%;
+	
+	}
+.columnasx3{
+	width: 50%;
+	float: right;
+	padding: 20px 18px;
+	height: 550px;
+	box-sizing: border-box;
+    margin: auto;
+	
+}
+.boton-ver-mas{
+		font-size: 25px;
+		width: 120px;
+		height: 50px;
+	}
+
+.h4-colum{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 25px;
+}
+.h5-colum{
+	line-height: 1;
+	font-weight: normal;
+	padding: :10px 0;
+	font-size: 25px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+.parra-com{
+	color: #888;
+	font-size: 25px;
+	
+}
+.img-comun{
+	text-align: center;
+	width: 100%;
+	height: 220px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.titu-comunicados{
+	
+	font-size: 60px;
+	text-align: center;
+	margin-top: 49px;
+	
+
+}	
+/*-------proyectos colegio----------->*/
+
+
+
+	.prop1{
+		margin-top: 30px;
+	}
+.prop-img{
+
+	 
+
+	}
+.caja-text{
+	text-align:left;
+	position: relative;
+	
+	padding:0px;
+	
+	
+}
+.prop-text1{
+	font-size: 2vw;
+	margin: 0;
+	padding: 0;
+	
+}
+.prop-text{
+	font-size: 1.5vw;
+	
+}
+/*-----trofeos------*/
+
+.trofeo{
+	
+    display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	
+	
+	
+}
+.img-trofeo{
+	margin-top: 20px;
+	width:800px;
+	cursor: pointer;
+}
+	
+/*-----ICONOS_PIE PAG--------*/
+
+.datos{
+	font-size: 500%;
+ 
+	color: white;
+	border-bottom: 5px solid #f6c700;
+}
+.icons-AE{
+	width: 98%;
+      left: 10%;           
+  }
+.ic_uno img{
+width: 130px;
+	
+
+}
+
+
+.parr-un{
+	color: white;
+float:left;
+	font-size: 33px;
+	text-align: center;
+	margin-left: 50px;
+	
+}
+.escudprin{
+	
+position: absolute;
+ top:26%;
+ left: 50%;           
+        margin-top:-150px ;
+        margin-left: -150px;       
+        
+       
+}
+.escud{
+	width: 260px;
+	 border-radius: 200px;
+	opacity: 65%;
+}
+
+
+.text-derch{
+	padding: 0;
+	font-size: 35px;
+	text-align: center;
+	color: black;
+
+
+}
+
+.icons-AE{
+	width: 1000px;
+	padding: 5px;
+	height: 400px;
+	position: absolute;
+	display: block;
+	 top:50%;
+        left: 40%;           
+        margin-top:-100px ;
+        margin-left: -200px;
+
+}
+
+.face-pie{
+	
+	width: 500px;
+    height: 800px;
+	position: absolute;
+	margin-left: 0;
+	margin-top: 0;
+	margin-top: 0;
+	top:15%;
+	left: 7%;
+	align-content: flex-end;
+	z-index: 1;
+}
+
+}
+/*1260 a 1320
+/*1200 y1901
+
+

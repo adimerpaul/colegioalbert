@@ -1,0 +1,86 @@
+.*{
+	font-family: 'Lato', sans-serif;
+}
+.sss {
+	height: 0;
+	margin: 0; 
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.ssslide {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+}
+
+.ssslide img {
+	max-width: 90%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.sssnext, .sssprev {
+	width: 25px;
+	height: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	background: url('images/arr.png') no-repeat;
+}
+
+.sssprev {
+	left: 15%;
+	background-position: 0 50%;
+}
+
+.sssnext {
+	right: 15%;
+	background-position: -26px 50%;
+	
+}
+
+.sssprev:hover, .sssnext:hover {
+	cursor: pointer;
+}
+.testimonios{
+	clear: both;
+	padding: 50px 0;
+	text-align: center;
+	
+}
+.slider-1 img{
+	margin: auto;
+}
+.img-slid{
+	width:300px;
+	border-bottom:5px solid  #FFC801;
+	
+}
+.h3-test{
+	 
+	margin-left: 150px;
+	margin-right: 150px;
+	font-size: 25px;
+	
+}
+@media screen and (min-width: 280px){
+	.h3-test{
+	 
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 25px;
+	
+}
+}
+

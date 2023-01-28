@@ -1,0 +1,116 @@
+*{
+	font-family: 'Lato', sans-serif !important;
+	padding: 0;
+	margin: 0;
+
+}
+body{
+	
+	width: 100%;
+	text-align: center;
+	background:url(../../img/TROFEOS/tapiz.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-attachment: fixed;
+	
+	
+}
+
+.contenido{
+	
+	border-bottom-color: 10px solid antiquewhite;
+	text-align: center;
+	width: 100%;
+	display: inline;
+}
+.imass{
+	
+	position: relative;
+	
+}
+.img_placa{
+	position: relative;
+	
+}
+.destaca_titu{
+	
+    z-index: -1;
+	
+}
+h2{
+	position: relative;
+	bottom: 120px;
+	font-size: 43px;
+	
+	color: black;
+	
+}
+.imas2{
+	position: relative;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.imas{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display:inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	
+
+}
+.nom_alum{
+	width: 250px;
+	position:absolute;
+	left: 28%;
+	top: 85%;
+	
+}
+img{
+	width:550px;
+	
+}
+h1{
+	color: black;
+	position: absolute;
+	text-align: center;
+	font-size: 15px;
+	margin-left: 38%;
+	margin-right: 40%;
+	bottom:20px; 
+	
+	
+	
+}
+@media screen and (min-width: 280px) and (max-width: 450px) {
+	
+	img,
+	.escud,
+	.destaca_titu{
+		width: 50%;;
+	}
+	.nom_alum{
+		
+	width: 110px;
+	position:relative;
+	left: 0%;
+	top: 85%;
+	}
+	
+	
+	img{
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+		
+		
+	}
+	
+	
+	
+}
+
+

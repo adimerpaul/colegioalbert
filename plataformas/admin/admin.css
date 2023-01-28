@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	background: #00163E;
+	text-align: center;
+	margin-bottom:0%;
+	box-sizing: border-box;  
+
+}
+h1{
+	font-size:  50px;
+	
+}
+.admin-conten{
+
+	text-align: center;
+	background: #FFC801;
+	width: 45%;
+	height: 500px;
+	object-position: center;
+	margin: auto;
+	margin-top: 5px; 
+	border-radius: 15px;
+	border-color: #fff;
+
+}
+form{
+	object-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.content{
+
+
+margin-top: 25px; 
+width: 70%;
+height: 80%;
+display:block;
+margin:auto;
+
+}
+input.intro{
+	
+	height: 60px;
+	margin: 5px;
+	text-align: center;
+	font-size: 2vw;
+	border-radius: 15px;
+
+}
+input.in{
+	width: 50%;
+	height:50px;
+	margin-top:5%; 
+	text-align: center;
+	
+	font-size: 1.5em;
+	border-radius: 15px;
+	cursor: pointer;  
+}
+.fa-user-tie,.fa-key,.fa-home{
+	font-size: 50px;
+	color: #00163E;
+	margin: 1px 0px 12px 0px;
+}
+
+input::placeholder {
+  color: #00163E;
+  font-size: 1.2em;
+  font-style: 'lato';
+
+}
+i{
+	width: 100%;
+	
+}
+.fa-home{
+	
+	
+	border-radius: 50px ;
+	margin-top:-10px;
+	
+	
+	
+}
+img{
+	 width: 300px;
+	position: relative;
+	margin-top: 0px 0px 0px 0px;
+
+}
+
+
+
+}
+@media screen and (min-width: 700px) {
+
+	h1{
+font-size: 3vw;
+	}
+}
+@media screen and (min-width: 280px) and (max-width: 450px){
+	
+.admin-conten{
+	text-align: center;
+	background: #FFC801;
+	width: 80%;
+	height: 500px;
+	object-position: center;
+	margin: auto;
+	
+	margin-top: 0px; 
+	border-radius: 15px;
+	border-color: #fff;
+
+	}
+	img{
+		margin-top: 1%;
+		width:  35%;
+	}
+
+	h1{
+		font-size: 2em;
+	}
+input.intro{
+	width: 200px;
+	height: 40px;
+	margin: 5px;
+	text-align: center;
+	font-size: 2vw;
+	border-radius: 15px;
+
+}
+input.in{
+	width: 50%;
+	height:50px;
+	margin-top:5%; 
+	text-align: center;
+	font-size: 1em;
+	border-radius: 15px;
+	cursor: pointer;  
+}
+.fa-user-tie,.fa-key,.fa-home{
+	font-size: 50px;
+	color: #00163E;
+	margin: 15px 0px 10px 0px;
+}
+
+input::placeholder {
+	
+  color: #00163E;
+  font-size: 2em;
+  font-style: 'lato';
+
+}
+
+
+}
