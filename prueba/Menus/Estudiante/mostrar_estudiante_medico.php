@@ -1,5 +1,6 @@
 <?php
 include "../../conexion.php";
+$usuario=$_GET["id"];
 ?>
 <html>
 <header>
@@ -26,7 +27,7 @@ include "../../conexion.php";
 
 
     while($f=mysqli_fetch_array($res)){
-        $resOtrosPago=mysqli_query($conectador,"select * from otros_pagos WHERE rude_estu='$f[8]' AND (MES like '%SEGURO MEDICO%' OR MES like '%SEGURO COLEGIO%' )");
+        $resOtrosPago=mysqli_query($conectador,"select * from otros_pagos WHERE rude_estu='$f[8]' AND (MES like '%SEGURO ACCIDENTE%' OR MES like '%ATENCION MEDICA%' )");
         $countOtrosPago=mysqli_num_rows($resOtrosPago);
         if ($countOtrosPago>0){
             $fOtrosPago=mysqli_fetch_array($resOtrosPago);
@@ -35,8 +36,20 @@ include "../../conexion.php";
         }else{
             $asegurado="<span class='label label-danger'>NO</span>";
         }
+        $resFichaMedica=mysqli_query($conectador,"select * from ficha_medica WHERE nombre='$f[0]' AND apellido_pat='$f[1]' AND apellido_mat='$f[2]'");
+        $countFichaMedica=mysqli_num_rows($resFichaMedica);
+        if ($countFichaMedica>0){
+            $ficha=mysqli_fetch_array($resFichaMedica);
+            $id_ficha_estudiante=$ficha[0];
+            $showFicha="
+<a href='modificar_estudiante_med.php?id=$id_ficha_estudiante' class='btn btn-warning' target='CUERPO'><span class='glyphicon glyphicon-edit'></span>Modificar</a>
+<a href='../Pagos/form_consulta.php?id=$id_ficha_estudiante&d2=$usuario' target='_blank' class='open-Modal btn btn-success'><span class='glyphicon glyphicon-usd'></span>Consulta médica</a>
+";
+        }else{
+            $showFicha="<span class='label label-danger'>NO</span>";
+        }
         echo "<tr>";
-        echo "<td><btn class='btn btn-warning' ><span class='glyphicon glyphicon-edit'></span>Modificar</btn><btn class='btn btn-success' ><span class='glyphicon glyphicon-usd'></span>Consulta medica</btn></td>";
+        echo "<td> $showFicha";
         echo "<td>$asegurado</td>";
         echo "<td>$f[0] $f[1] $f[2]</td>";
         echo "<td>$f[9]</td>";
