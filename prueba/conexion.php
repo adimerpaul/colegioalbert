@@ -4,7 +4,7 @@
 $conectador=mysqli_connect("localhost","root","");
 
 //$base="hdqxhmjp_2022";
-$base="albert";
+$base="albert2";
 mysqli_select_db($conectador ,$base);
 date_default_timezone_set('America/La_Paz');
 mysqli_set_charset($conectador, "utf8");

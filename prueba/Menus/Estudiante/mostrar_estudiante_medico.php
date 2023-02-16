@@ -85,7 +85,7 @@ $usuario=$_GET["id"];
                     data-toggle='modal' data-target='#ver_estudiante' class='open-Modal btn btn-info'><span class='glyphicon glyphicon-eye-open'></span> Historia Clínica</button>";
         }else{
             $llamar="";
-            $showFicha="<span class='label label-danger'>NO</span>";
+            $showFicha="<a href='reg_estudiante_medico.php?id=$f[8]' class='btn btn-success' target='CUERPO'><span class='glyphicon glyphicon-edit'></span>Registrar</a>";
             $showHistoria="<span class='label label-danger'>NO</span>";
         }
         echo "<tr>";
