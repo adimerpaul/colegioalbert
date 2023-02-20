@@ -4,11 +4,14 @@
  ini_set('display_errors', true);
 
   $res=$_GET["id"];
-  
+
   $i=mysqli_fetch_array(mysqli_query($conectador,"select * from estudiante where rude='$res';"));
-
-
-
+$resFichaMedica=mysqli_query($conectador,"select * from ficha_medica WHERE nombre='$i[0]' AND apellido_pat='$i[1]' AND apellido_mat='$i[2]'");
+$countFichaMedica=mysqli_num_rows($resFichaMedica);
+if ($countFichaMedica>0){
+    echo "<h1>Ya existe una ficha medica para este estudiante</h1>";
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -31,28 +34,28 @@
 <style>.form-control:focus {
   border-color: #6265e4 !important;
   box-shadow: 0 0 5px rgba(98, 101, 228, 1) !important;
-}</style>    
+}</style>
 <form id="form1" name="form1" method="post" action="pro_reg_estudiante_medico.php" class="form-horizontal">
       <br>
-      <div class="form-group">      
+      <div class="form-group">
 
 
         <label for="nom_estu" class="control-label col-md-2">Nombre del estudiante:</label>
         <div class="col-md-3"><input type="text" name="nom_estu" id="nom_estu" class="form-control" onKeyUp="this.value = this.value.toUpperCase();" value="<?php echo $i['nombre']?>" readonly/></div>
-        
+
         <div cass="col-md-1"></div>
       <label for="tel_padre" class="control-label col-md-3">Peso(Kg):</label>
       <div class="col-md-3"><input type="number" name="peso" id="tel_padre"  class="form-control" placeholder=""value='0'/></div>
       </div>
-      <div class="form-group">      
+      <div class="form-group">
       <label for="ap_pat" class="control-label col-md-2">Apellido paterno:</label>
       <div class="col-md-3"><input type="text" name="ap_pat" id="ap_pat"  class="form-control" onKeyUp="this.value = this.value.toUpperCase();" value="<?php echo $i['apellido_pat']?>" readonly/></div>
       <div cass="col-md-1"></div>
       <label for="tel_padre" class="control-label col-md-3">Estatura(Cm.):</label>
       <div class="col-md-3"><input type="number" name="estatura" id="tel_padre"  class="form-control" placeholder="Nro Telefono o Celular"value='0'/></div>
       </div>
-      
-      <div class="form-group">       
+
+      <div class="form-group">
       <label for="ap_mat" class="control-label col-md-2">Apellido materno:</label>
       <div class="col-md-3"><input type="text" name="ap_mat" id="ap_mat"  class="form-control" onKeyUp="this.value = this.value.toUpperCase();" value="<?php echo $i['apellido_mat']?>" readonly/></div>
       <div cass="col-md-1"></div>
@@ -60,7 +63,7 @@
       <div class="col-md-2"><select name="tiene_s" id="sexo" class="form-control">
               <option>No</option>
               <option>Si</option>
-              
+
       </select>
       </div>
       </div>
@@ -72,8 +75,8 @@
                       </div>
 
 
-      <div class="form-group">       
-      
+      <div class="form-group">
+
       <label for="sexo" class="control-label col-md-2">Lugar de nacimiento: </label>
       <div class="col-md-3"><select name="lugar_nac" id="lugar_nac" class="form-control">
               <option>Cochabamba</option>
@@ -85,21 +88,21 @@
               <option>Pando</option>
               <option>Potosi</option>
               <option>Tarija</option>
-              
+
       </select>
       </div>
       <label for="ap_pat" class="control-label col-md-3">¿Dónde está asegurado?</label>
       <div cass="col-md-1"></div>
       <div class="col-md-3"><input type="text" name="seguro" id="ap_pat"  class="form-control" onKeyUp="this.value = this.value.toUpperCase();" placeholder="" required value='0'/></div>
       </div>
-      
 
-      <div class="form-group">          
+
+      <div class="form-group">
       <label for="fecha_nac" class="control-label col-md-2">Fecha de nacimiento:</label>
       <div class="col-md-3"><input type="date" name="fecha_nac" id="fecha_nac"  class="form-control"  value="<?php echo $i['nacimiento'];?>" readonly /></div>
-      
+
       <div cass="col-md-1"></div>
-      
+
       <label for="sexo" class="control-label col-md-3">Grupo sanguíneo: </label>
       <div class="col-md-2"><select name="sangre" id="lugar_nac" class="form-control" required>
               <option>Seleccionar</option>
@@ -111,17 +114,17 @@
               <option>O-</option>
               <option>B-</option>
               <option>AB-</option>
-              
-              
+
+
       </select>
       </div>
 
       </div>
 
-      
-        
-        
-      <div class="form-group">    
+
+
+
+      <div class="form-group">
       <label for="tel" class="control-label col-md-2">Telefono padre:</label>
       <div class="col-md-3"><input type="number" name="tel_p" id="tel"  class="form-control" value="<?php echo $i['telefono_padre'];?>" required/></div>
       <div cass="col-md-1"></div>
@@ -129,7 +132,7 @@
       <div class="col-md-2"><select name="tiene_al" id="sexo" class="form-control">
               <option>No</option>
               <option>Si</option>
-              
+
       </select>
       </div>
       </div>
@@ -137,7 +140,7 @@
 
 
 
-      <div class="form-group">    
+      <div class="form-group">
       <label for="tel" class="control-label col-md-2">Telefono madre:</label>
       <div class="col-md-3"><input type="number" name="tel_m" id="tel"  class="form-control" value="<?php echo $i['telefono_madre'];?>" required/></div>
       <label for="ap_pat" class="control-label col-md-3">¿A qué tiene alergia?</label>
@@ -146,7 +149,7 @@
       </div>
 
 
-      <div class="form-group">    
+      <div class="form-group">
       <label for="tel" class="control-label col-md-2">Telefono tutor:</label>
       <div class="col-md-3"><input type="number" name="tel_t" id="tel"  class="form-control" value="<?php echo $i['telefono_tutor'];?>" required/></div>
       <div cass="col-md-1"></div>
@@ -154,13 +157,13 @@
       <div class="col-md-2"><select name="recibe_trat" id="sexo" class="form-control">
               <option>No</option>
               <option>Si</option>
-              
+
       </select>
       </div>
       </div>
 
 
-      <div class="form-group">    
+      <div class="form-group">
       <label for="sexo" class="control-label col-md-2">En caso de emergencia a quién llamar</label>
       <div class="col-md-2"><select name="llamar" id="sexo" class="form-control">
               <option>Padre</option>
@@ -170,9 +173,9 @@
       </div>
       <div cass="col-md-1"></div>
       <label for="ap_pat" class="control-label col-md-3">¿Qué tratamiento recibe?</label>
-      
+
       <div class="col-md-4"><input type="text" name="tratamiento" id="ap_pat"  class="form-control" onKeyUp="this.value = this.value.toUpperCase();" value='0'/></div>
-      
+
       </div>
 
       <div class="row">
@@ -180,18 +183,18 @@
           <label class="control-label col-md-12"><center><h2> Anamnesis en revisión </font></h2></center></label>
         </div>
       </div>
-      <div class="form-group">      
+      <div class="form-group">
         <label for="nom_estu" class="control-label col-md-2">Antecedentes patológicos personales:</label>
         <div class="col-md-3"><input type="text" name="app" id="nom_estu" class="form-control" onKeyUp="this.value = this.value.toUpperCase();" value='0' required/></div>
-        
+
         <div cass="col-md-1"></div>
       <label for="tel_padre" class="control-label col-md-3">Antecedentes patológicos familiares:</label>
       <div class="col-md-3"><input type="text" name="apf" id="tel_padre"  class="form-control" value='0'/></div>
       </div>
-      <div class="form-group">      
+      <div class="form-group">
         <label for="nom_estu" class="control-label col-md-2">Fracturas que ha sufrido:</label>
         <div class="col-md-3"><input type="text" name="fracturas" id="nom_estu" class="form-control" onKeyUp="this.value = this.value.toUpperCase();" value='0' required/></div>
-        
+
         <div cass="col-md-1"></div>
       <label for="tel_padre" class="control-label col-md-3">Cirugías que ha tenido:</label>
       <div class="col-md-3"><input type="text" name="cirugias" id="tel_padre"  class="form-control" placeholder="" value='0'/></div>
@@ -199,31 +202,31 @@
       <div cass="col-md-1"></div>
       <label for="tel_padre" class="control-label col-md-2 ">Enfermedad de Base:</label>
       <div class="col-md-3"><input type="text" name="base" id="tel_padre"  class="form-control" placeholder="" value='0'/></div>
-      
+
       </div>
 </br>
       <script>
           function comprobarRude(){
             clave1=document.getElementById("cod_rude").value;
             if(clave1==""){
-                alert("El campo RUDE y CODIGO ESTUDIANTE no puede estar vacio");             
+                alert("El campo RUDE y CODIGO ESTUDIANTE no puede estar vacio");
             }
           }
         </script>
-      
+
       <div class="form-group">
         <div class="col-md-5 col-md-offset-5">
           <button type="submit" name="button" id="button" class="btn btn-primary">
-           Guardar 
+           Guardar
           <b class="glyphicon glyphicon-floppy-disk"></b>
           </button>
         </div>
       </div>
-    
+
 
 </form>
   </div>
-  <script></script>    
+  <script></script>
 <script src="js/query.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
